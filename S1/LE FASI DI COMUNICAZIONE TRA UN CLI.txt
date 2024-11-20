@@ -1,0 +1,13 @@
+LE FASI DI COMUNICAZIONE TRA UN CLIENT ED UN WEB SERVER
+
+1 il client effettua una richiesta al sito tryhackme.com nel suo browser
+2 il client controlla la sua cache l'ip address
+3 controlla il suo server dns ricorsivo per l'indirizzo ip
+4 interroga il root server per trovare il server dns autorevole
+5 il server dns autorevole assegna l'indirizzo ip per il sito
+6 la richiesta passa attraverso un web applicatioon firewall
+7 la richiesta passa dentro una distrubuzione del carico lavoro
+8 si connette al server sulla porta 80 o 443
+9 il web server riceve una GET request
+10 l'applicazione web parla coon il database
+11 il tuo browser web reinderizza l'html in un sito "visibile"
